@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "405-4057872_harry-potter-24-harry-potter-magic-stick-png.png-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
