@@ -18,7 +18,10 @@ struct CardStyle: ViewModifier {
             .frame(height: 150)
             .background(.ultraThinMaterial)
             .cornerRadius(20)
-            .shadow(color: Color("Shadow").opacity(0.5), radius: 5, x: 0, y: 2.5)
+            .shadow(
+                color: Color("Shadow").opacity(0.5),
+                radius: 5, x: 0, y: 2.5
+            )
     }
 }
 
@@ -29,7 +32,13 @@ struct CardTextStyle: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-            .foregroundStyle(.linearGradient(colors: [.blue, .purple], startPoint: .topLeading, endPoint: .bottomTrailing))
+            .foregroundStyle(
+                .linearGradient(
+                    colors: [.blue, .purple],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            )
     }
 }
 

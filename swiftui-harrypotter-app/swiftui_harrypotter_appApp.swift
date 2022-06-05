@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftui_harrypotter_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AccountView()
         }
     }
 }
