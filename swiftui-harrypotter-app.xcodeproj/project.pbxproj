@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADB687EE284C76CB007DEE9B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB687ED284C76CB007DEE9B /* Styles.swift */; };
 		ADC8B169284401FC00621FA9 /* swiftui_harrypotter_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8B168284401FC00621FA9 /* swiftui_harrypotter_appApp.swift */; };
 		ADC8B16B284401FC00621FA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8B16A284401FC00621FA9 /* ContentView.swift */; };
 		ADC8B16D284401FF00621FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC8B16C284401FF00621FA9 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ADB687ED284C76CB007DEE9B /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		ADC8B165284401FC00621FA9 /* swiftui-harrypotter-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-harrypotter-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC8B168284401FC00621FA9 /* swiftui_harrypotter_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_harrypotter_appApp.swift; sourceTree = "<group>"; };
 		ADC8B16A284401FC00621FA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				ADC8B168284401FC00621FA9 /* swiftui_harrypotter_appApp.swift */,
 				ADC8B16A284401FC00621FA9 /* ContentView.swift */,
+				ADB687ED284C76CB007DEE9B /* Styles.swift */,
 				ADC8B16C284401FF00621FA9 /* Assets.xcassets */,
 				ADC8B16E284401FF00621FA9 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB687EE284C76CB007DEE9B /* Styles.swift in Sources */,
 				ADC8B16B284401FC00621FA9 /* ContentView.swift in Sources */,
 				ADC8B169284401FC00621FA9 /* swiftui_harrypotter_appApp.swift in Sources */,
 			);
