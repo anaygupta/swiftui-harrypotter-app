@@ -93,8 +93,14 @@ struct AccountView: View {
 
 struct AccountView_Previews: PreviewProvider {
     static var previews: some View {
-        AccountView()
-            .preferredColorScheme(.dark)
+        Group {
+            AccountView()
+                .preferredColorScheme(.dark)
+                .previewInterfaceOrientation(.portraitUpsideDown)
+            AccountView()
+                .preferredColorScheme(.dark)
+                .previewInterfaceOrientation(.landscapeLeft)
+        }
         
     }
 }

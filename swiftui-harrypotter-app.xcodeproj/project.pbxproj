@@ -16,6 +16,7 @@
 		ADC8B17A284401FF00621FA9 /* swiftui_harrypotter_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8B179284401FF00621FA9 /* swiftui_harrypotter_appTests.swift */; };
 		ADC8B184284401FF00621FA9 /* swiftui_harrypotter_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8B183284401FF00621FA9 /* swiftui_harrypotter_appUITests.swift */; };
 		ADC8B186284401FF00621FA9 /* swiftui_harrypotter_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8B185284401FF00621FA9 /* swiftui_harrypotter_appUITestsLaunchTests.swift */; };
+		ADC962F2289EEE8E002CBA88 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC962F1289EEE8E002CBA88 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		ADC8B17F284401FF00621FA9 /* swiftui-harrypotter-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-harrypotter-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC8B183284401FF00621FA9 /* swiftui_harrypotter_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_harrypotter_appUITests.swift; sourceTree = "<group>"; };
 		ADC8B185284401FF00621FA9 /* swiftui_harrypotter_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_harrypotter_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADC962F1289EEE8E002CBA88 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				ADC8B168284401FC00621FA9 /* swiftui_harrypotter_appApp.swift */,
 				ADC8B16A284401FC00621FA9 /* ContentView.swift */,
 				ADB687EF284C80DC007DEE9B /* AccountView.swift */,
+				ADC962F1289EEE8E002CBA88 /* TabBar.swift */,
 				ADB687ED284C76CB007DEE9B /* Styles.swift */,
 				ADC8B16C284401FF00621FA9 /* Assets.xcassets */,
 				ADC8B16E284401FF00621FA9 /* Preview Content */,
@@ -267,6 +270,7 @@
 				ADB687EE284C76CB007DEE9B /* Styles.swift in Sources */,
 				ADC8B16B284401FC00621FA9 /* ContentView.swift in Sources */,
 				ADC8B169284401FC00621FA9 /* swiftui_harrypotter_appApp.swift in Sources */,
+				ADC962F2289EEE8E002CBA88 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
